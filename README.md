@@ -1,2 +1,2 @@
 # testaction
-hi dev
+ci test
