@@ -1,1 +1,2 @@
 # testaction
+ci test
