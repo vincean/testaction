@@ -1,2 +1,2 @@
 # testaction
-ci modify
+ci push update staging
