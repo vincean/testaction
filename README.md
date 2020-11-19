@@ -1,2 +1,2 @@
 # testaction
-ci push update staging
+ci push update conflict
