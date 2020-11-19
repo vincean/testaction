@@ -10,6 +10,6 @@ jobs:
       - name: Merge by labeled
         uses: devmasx/merge-branch@v1.3.1
         with:
-          label_name: 'merged in staging'
+          type: now
           target_branch: 'staging'
           github_token: ${{ github.token }}
