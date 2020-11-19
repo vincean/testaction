@@ -1,7 +1,7 @@
 name: Merge branch with labeled
-on: [push, pull_request]
+on: [pull_request]
 jobs:
-  merge-branch:
+  merge-staging-branch:
     if: contains(github.event.pull_request.labels.*.name, 'merged in staging')
     runs-on: ubuntu-latest
     steps:
